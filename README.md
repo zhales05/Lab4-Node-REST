@@ -24,7 +24,7 @@ nohup node ./bin/www >& output &
 
 #### Grading:
 
-- Grading will be based off the following (subject to change):
+- The following rubric will be used for grading
 
 Behavior |	Approximate Points
  --- | ---
