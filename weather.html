@@ -1,28 +1,25 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>City Finder</title>
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
+  <meta charset="utf-8" />
+  <title>Vue REST</title>
 </head>
-<body>
-<form>
-Enter A Utah City: <input type="text" id="cityfield" value=""><br>
-Suggestion: <span id="txtHint">Empty</span>
-</form>
-<script>
-$( "#cityfield" ).keyup(function() {
-  var url = "getcity?q="+$("#cityfield").val();
-  $.getJSON(url,function(data) {
-    var everything;
-    everything = "<ul>";
-    $.each(data, function(i,item) {
-      everything += "<li> "+data[i].city;
-    });
-    everything += "</ul>";
-    $("#txtHint").html(everything);
-  });
-});
 
-</script>
+<body>
+  <div id="app">
+    <h1>Select a City</h1>
+    <form v-on:keyup.prevent="fetchREST">
+      <input type="text" v-model="prefix">
+    </form>
+    <ul>
+      <li v-for="item in cities">
+        {{ item.name }}
+      </li>
+    </ul>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+  <script src="javascripts/script.js"></script>
 </body>
+
 </html>
