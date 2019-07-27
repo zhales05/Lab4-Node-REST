@@ -1,6 +1,6 @@
 # Lab4-NodeREST
 
-In this lab you will implement the Utah cities suggestions RESTful service in Node.js that connects to your weather cities application from "Activity J6: REST Cities". 
+In this lab you will implement the Utah cities suggestions RESTful service in Node.js that connects to your weather cities application from ["Activity V3: Vue with REST Calls"](https://github.com/BYUCS260/Vue-REST). 
 You will take a URL with a ?q=chars suffix and will look up all of the utah cities that have those chars as a prefix. You will then return a JSON string corresponding to the entries.
 
 If you haven't seen the express generated files before, check out this [documentation](https://expressjs.com/en/starter/generator.html).
