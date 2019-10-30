@@ -5,7 +5,7 @@ You will take a URL with a ?q=chars suffix and will look up all of the utah citi
 
 If you haven't seen the express generated files before, check out this [documentation](https://expressjs.com/en/starter/generator.html).
 
-The javascript application from "Activity J6: REST Cities" should be modified to make the request to your own REST server instead of the <a href="http://bioresearch.byu.edu/cs260/jquery/getcity.cgi?q=P">one used</a> for your javascript activity. 
+The javascript application from ["Activity V3: Vue with REST Calls"](https://github.com/BYUCS260/Vue-REST) should be modified to make the request to your own REST server instead of the <a href="http://bioresearch.byu.edu/cs260/jquery/getcity.cgi?q=P">one used</a> for your javascript activity. 
 Before you do that, you should copy the related files over to your newly created express server. 
 
 These [hints](https://github.com/BYUCS260/Lab4-NodeREST/wiki/Cities-REST-Service-Hints) may be helpful if you get stuck.
