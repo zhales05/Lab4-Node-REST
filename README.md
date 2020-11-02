@@ -1,4 +1,4 @@
-# Lab4-NodeREST
+# Activity N2.6 Cities
 
 In this activity you will implement the Utah cities suggestions RESTful service in Node.js that connects to your cities application from ["Activity V0: Vue with a REST Interface"](https://github.com/BYUCS260/Vue-REST). 
 You will take a URL with a ?q=chars suffix and will look up all of the utah cities that have those chars as a prefix. You will then return a JSON string corresponding to the entries.
